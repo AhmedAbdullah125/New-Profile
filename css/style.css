@@ -1,0 +1,724 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    transition: .6s;
+    line-height: 1.8;
+}
+
+body {
+}
+
+.header {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header .overlay .container-p {
+    padding-top: 200px;
+}
+
+.overlay {
+    background-color: rgb(0 0 0 / 65%);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px !important;
+
+}
+
+.active {
+    border-bottom: 2px solid #1C1C1C;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.header-text {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    /* transform: translateY(-50%) ; */
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.header-text p {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-text a i {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: rgb(0 0 0 / 30%);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.animated::after {
+    content: "Ahmed Abdullah |";
+    animation: changeLetters 6s infinite;
+}
+
+@keyframes changeLetters {
+    0% {
+        content: "Ahmed Abdullah|"
+    }
+
+    1% {
+        content: "Ahmed Abdulla|"
+    }
+
+    2% {
+        content: "Ahmed Abdull|"
+    }
+
+    3% {
+        content: "Ahmed Abdul|"
+    }
+
+    4% {
+        content: "Ahmed Abdul|"
+    }
+
+    5% {
+        content: "Ahmed Abdu|"
+    }
+
+    6% {
+        content: "Ahmed Abd|"
+    }
+
+    7% {
+        content: "Ahmed Ab|"
+    }
+
+    8% {
+        content: "Ahmed A|"
+    }
+
+    9% {
+        content: "Ahmed |"
+    }
+
+    10% {
+        content: "Ahmed|"
+    }
+
+    11% {
+        content: "Ahme|"
+    }
+
+    12% {
+        content: "Ahm|"
+    }
+
+    13% {
+        content: "Ah|"
+    }
+
+    14% {
+        content: "A|"
+    }
+
+    15% {
+        content: "|"
+    }
+
+    18% {
+        content: "D|"
+    }
+
+    19% {
+        content: "De|"
+    }
+
+    20% {
+        content: "Des|"
+    }
+
+    21% {
+        content: "Desi|"
+    }
+
+    22% {
+        content: "Desig|"
+    }
+
+    23% {
+        content: "Design|"
+    }
+
+    24% {
+        content: "Designe|"
+    }
+
+    39% {
+        content: "Designer|"
+    }
+
+    40% {
+        content: "Designe|"
+    }
+
+    41% {
+        content: "Design|"
+    }
+
+    42% {
+        content: "Desig|"
+    }
+
+    43% {
+        content: "Desi|"
+    }
+
+    44% {
+        content: "Des|"
+    }
+
+    45% {
+        content: "De|"
+    }
+
+    46% {
+        content: "Dev|"
+    }
+
+    47% {
+        content: "Deve|"
+    }
+
+    48% {
+        content: "Devel|"
+    }
+
+    49% {
+        content: "Develo|"
+    }
+
+    50% {
+        content: "Develop|"
+    }
+
+    51% {
+        content: "Develope|"
+    }
+
+    70% {
+        content: "Developer|"
+    }
+
+    71% {
+        content: "Develope|"
+    }
+
+    72% {
+        content: "Develop|"
+    }
+
+    73% {
+        content: "Develo|"
+    }
+
+    74% {
+        content: "Devel|"
+    }
+
+    75% {
+        content: "Deve|"
+    }
+
+    76% {
+        content: "Dev|"
+    }
+
+    77% {
+        content: "De|"
+    }
+
+    78% {
+        content: "D|"
+    }
+
+    79% {
+        content: "|"
+    }
+
+    80% {
+        content: "A|"
+    }
+
+    81% {
+        content: "Ah|"
+    }
+
+    82% {
+        content: "Ahm|"
+    }
+
+    83% {
+        content: "Ahme|"
+    }
+
+    84% {
+        content: "Ahmed|"
+    }
+
+    85% {
+        content: "Ahmed A|"
+    }
+
+    86% {
+        content: "Ahmed Ab|"
+    }
+
+    87% {
+        content: "Ahmed Abd|"
+    }
+
+    88% {
+        content: "Ahmed Abdu|"
+    }
+
+    89% {
+        content: "Ahmed Abdul|"
+    }
+
+    90% {
+        content: "Ahmed Abdull|"
+    }
+
+    91% {
+        content: "Ahmed Abdulla|"
+    }
+
+    100% {
+        content: "Ahmed Abdullah|"
+    }
+
+}
+
+.navbar-notfixed {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+.navbar-notfixed a {
+    color: #fff !important;
+}
+
+.navbar-notfixed .active {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-fixed {
+    padding: 10px 10%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000000;
+    color: #1C1C1C !important;
+    background-color: #fff !important;
+
+}
+
+/*      About       */
+.about .container .content {
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about .container .content img {
+    max-width: 100%;
+    position: relative;
+
+}
+.about .container .pic-side{
+    position: relative;
+}
+.pic-side::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0;
+    left: -9px;
+    top: 55%;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.progress-bar {
+    background-color: #1C1C1C;
+}
+
+.progress {
+    margin: 30px 0;
+    height: 24px;
+}
+
+.prog-content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btons button {
+    padding: 5px 25px;
+}
+
+.about .container .content h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.about .container .content p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(116, 129, 130);
+    line-height: 1.8;
+}
+
+.about .container .content .afterH {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    margin-top: -10px;
+}
+.about .row .col button a{
+    text-decoration: none;
+    color: #fff;
+}
+.about .row .col button .aa{
+    text-decoration: none;
+    color: #1C1C1C;
+}
+.about .row .col button:hover .aa{
+    color: #fff;
+}
+
+
+/*services*/
+.section-name {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 100px;
+    color: rgb(52, 52, 52);
+    text-align: center;
+    position: relative;
+    z-index: 30;
+}
+.section-name::after{
+    content: "";
+    width: 300px;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -23px;
+    left: 37%;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+
+.gray-page {
+    background-color: #F7F7F7;
+}
+
+.new-section {
+    padding-top: 150px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.services .row .col h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(52, 52, 52);
+}
+
+.services .row .col i {
+    width: 70px;
+    height: 70px;
+    color: #1C1C1C;
+    background-color: #eee;
+    line-height: 70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.services .row .col {
+    padding: 30px;
+}
+
+.services .row .col .content-col {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #ccc;
+    padding: 30px;
+}
+
+.services .row .col .content-col p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(116, 129, 130);
+}
+
+.services .col .content-col:hover i {
+    color: #fff;
+    background-color: #1C1C1C;
+}
+
+/*   Works   */
+.works ul li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.works .container ul li a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+.works .container .row .col .content-col {
+    position: relative;
+    overflow: auto;
+}
+
+.works .container .row .col .content-col:hover .overlay {
+    opacity: 1;
+}
+
+.works .container .row .col .content-col:hover p {
+    margin-bottom: -1px;
+}
+
+.works .container .row .col .content-col:hover i {
+    margin-bottom: -1px;
+}
+
+.works .container .row .col .content-col .overlay {
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: transparent;
+
+}
+
+.works .container .row .col .content-col .overlay .overlay-content {
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.works .container .row .col .content-col img {
+    max-width: 100%;
+}
+
+.works .container .row .col {
+    padding: 30px;
+}
+
+.works .container .row .col .content-col .overlay .overlay-content {
+    color: #1C1C1C;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.works .container .row .col .content-col .overlay .overlay-content i {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+.not-activ-col {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.swiper {
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    z-index: 1;
+    margin: auto;
+}
+.swiper .swiper-slide img{
+    max-width: 100px;
+    border-radius: 50%;
+}
+.swiper p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+/**************************/
+.team i, .contact i{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.team h3, .contact h30{
+    font-size: 30px;
+    font-weight: 900;
+}
+.team p, .contact p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(116, 129, 130);
+}
+.contact i{
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+.contact .col:hover i{
+    color: #fff;
+    background-color: #1C1C1C;
+}
+.contact form button{
+    padding: 10px 40px;
+}
+.contact .row{
+    margin-bottom: 100px;
+}
+footer{
+    padding: 30px;
+    background-color: #1C1C1C;
+    color: #748182;
+    line-height: 100%
+}
+
+
+
+.team .container .row .col .content-col {
+    position: relative;
+    overflow: hidden;
+
+}
+.team .container .row .col  :hover img{
+    scale: 1.2;
+}
+/* .team .container .row .col:hover .overlay{
+    opacity: 1;
+    scale: 1;
+    transform: scaleX(-1);
+} */
+.team .container .row .col .content-col:hover .overlay{
+    opacity: 1;
+    scale: 1;
+    transform: scaleX(-1);
+}
+.team .container .row .col .content-col .overlay {
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    scale: .7;
+    background-color: transparent;
+    z-index: 10000;
+}
+
+.team .container .row .col .content-col .overlay .overlay-content {
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team .container .row .col .content-col img {
+    max-width: 100%;
+}
+
+.team .container .row .col {
+    padding: 30px;
+}
+
+.team .container .row .col .content-col .overlay .overlay-content {
+    color: #1C1C1C;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.team .container .row .col .content-col .overlay .overlay-content i {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #1C1C1C;
+    color: #fff;
+    transform: scaleX(-1);
+    border: 2px solid #1C1C1C;
+}
+.team .container .row .col .content-col .overlay .overlay-content i:hover{
+    background-color: #fff;
+    color: #1c1c1c;
+}
+.team-mems{
+    background-color: #1C1C1C;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    margin-bottom: 30px !important;
+    padding: 20px;
+}
